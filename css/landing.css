@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	max-width: 1920px;
+	/*height: 3196px;*/
+	/*background-color:  #E5E5E5;*/
+	/*border: 1px solid red;*/
+}
+.header{
+	width: 1200px;
+	margin: auto;
+}
+.navbar{
+	height: 34px;
+	width:  1036px;
+	/*position: absolute;*/
+	background: #F30000;
+	border-radius: 8px;
+}
+.mainbody{
+	margin: auto;
+	/*margin-top: 164px;*/
+	width: 1200px;
+	height: 2399px;
+	border: 1px solid red;
+}
