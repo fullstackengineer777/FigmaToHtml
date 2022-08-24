@@ -15,11 +15,54 @@ body{
 }
 .navbar{
 	height: 34px;
-	width:  1036px;
-	/*position: absolute;*/
+	/*width:  1036px;*/
+	position: relative;
 	background: #F30000;
 	border-radius: 8px;
+
+	display: flex;
+	align-items: center;
+
 }
+.navitem{
+	/*position:  absolute;*/
+	/*width: 46px;*/
+	height: 19px;
+	margin: 7.5px 25px;
+	/*display: inline;*/
+	
+}
+.navbar a{
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-weight: bold;
+	text-decoration-line: none;
+	text-transform: uppercase;
+	color: white;
+}
+.navitem a:hover{
+	text-decoration-line: underline;
+}
+.navborder{
+	width: 24px;
+	height: 0px;
+	border:  1px solid #FFFFFF;
+	transform: rotate(90deg);
+	display: inline;
+}
+.navbar .account-btn{
+	width: 178px;
+	height: 34px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background: #0061A3;
+	border-radius: 8px;	
+}
+.account-btn a:hover{
+	text-decoration-line: underline;
+}
+/************************body section  ************************/
 .mainbody{
 	margin: auto;
 	/*margin-top: 164px;*/
