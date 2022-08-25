@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: "Roboto";
 }
 
 body{
@@ -48,19 +49,59 @@ body{
 	height: 0px;
 	border:  1px solid #FFFFFF;
 	transform: rotate(90deg);
-	display: inline;
+	/*display: inline;*/
 }
 .navbar .account-btn{
-	width: 178px;
-	height: 34px;
+	/*width: 178px;*/
+	/*height: 34px;*/
 	position: absolute;
 	right: 0px;
 	top: 0px;
 	background: #0061A3;
 	border-radius: 8px;	
+	/*text-align: center;*/
+
+	padding: 7.5px 25px;
 }
 .account-btn a:hover{
 	text-decoration-line: underline;
+}
+.topbar{
+	padding-top: 25px;
+	padding-bottom: 15px;
+
+	display: flex;
+	align-items: center;
+	position: relative;	
+}
+.topbar #welcome{
+	margin-left: 30px;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 120%;
+}
+.topbar #welcome a{
+	color: #0061A3;
+	text-decoration-line: none;
+}
+.topbar #welcome a:hover{
+	text-decoration-line: underline;
+}
+.topbar #top-social{
+	position: absolute;
+	right: 0px;
+}
+.topbar .top-social-row{
+	display: flex;
+	align-items: center;
+}
+.topbar .top-social-item{
+	margin-right: 14px;
+}
+.topbar #top-social .language-select{
+	border: none;
+	font-size: 14px;
+	text-align: center;
 }
 /************************body section  ************************/
 .mainbody{
