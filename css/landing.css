@@ -23,7 +23,7 @@ body{
 
 	display: flex;
 	align-items: center;
-
+	margin-bottom: 30px;
 }
 .navitem{
 	/*position:  absolute;*/
@@ -111,3 +111,11 @@ body{
 	height: 2399px;
 	border: 1px solid red;
 }
+
+#landing_img{
+	width: 1200px;
+	height: 462px;
+	border-radius: 8px;
+}
+
+
