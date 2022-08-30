@@ -118,4 +118,183 @@ body{
 	border-radius: 8px;
 }
 
+.body-description-row{
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+.body-description-item{
+	width: 380px;
+	height: 90px;
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
 
+	background: #FFFFFF;
+	/* grey/light */
+
+	border: 1px solid #E0E0E0;
+	border-radius: 8px;
+}
+.body-description-item img{
+	margin: 9px 5px;
+}
+.body-description-heading{
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+}
+.body-description-nav{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 21px;
+	/* identical to box height, or 150% */
+	float: right;
+	text-decoration-line: underline;
+	color: #0061A3;
+	/*margin-right: 15px; margin-top: 5.5px;*/
+	position: relative;
+	right: 15px;
+	top: 5.5px;
+}
+.main-title{
+	/*width: 421px;*/
+	/*height: 36px;	*/
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #000000;
+	/*float: left;*/
+	padding-top: 75px;
+	position: relative;
+	left: 9px;
+}
+.main-title p{
+	text-align: left;
+}
+
+.biggest-upcoming-row{
+	display: flex;
+	align-items: center;
+	padding-top: 30px;
+}
+.biggest-upcoming-row .biggest-upcoming-item{
+	width: 380px;
+	height: 150px;
+
+	background: #FFFFFF;
+
+	border: 1px solid #E0E0E0;
+	border-radius: 8px;
+	margin-left: 15px;
+	position: relative;
+}
+.biggest-upcoming-row .biggest-upcoming-item img{
+	margin: 5.38px 28.45px;
+}
+.biggest-upcoming-row .biggest-upcoming-item .biggest-upcoming-description{
+	display: flex;
+	align-items: center;
+}
+
+.biggest-upcoming-row .biggest-upcoming-item .biggest-upcoming-undertitle{
+	display: flex;
+	align-items: center;
+	background: #0061A3;
+	position: absolute;
+	left: 0.28%;
+	right: 0.27%;
+	top: 60.38%;
+	bottom: 0.1%;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	mix-blend-mode: normal;
+}
+
+.biggest-upcoming-undertitle button{
+	width: 171px; 
+	height: 36px;
+	background: #F7D300;
+	margin-left: 12.25px;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #000000;
+}
+.biggest-upcoming-undertitle img{
+	marign-right: 40px;
+	marign-right: 0px;
+}
+.biggest-upcoming-undertitle .biggest-upcoming-time{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+	color: #FFFFFF;
+	margin-left: 4px;
+}
+.biggest-upcoming-row .biggest-upcoming-item .biggest-upcoming-flag{
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+}
+.biggest-upcoming-row .biggest-upcoming-item .biggest-upcoming-price{
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 22px;
+	color: #13902A;
+}
+
+.upcoming-lotteries{
+	margin-top: 75px;
+	border: 1px solid black;
+}
+
+.upcoming-lotteries .upcoming-lotteries-title{
+	height: 45px;
+	margin: 0 15px;
+	font-size: 18px;
+	background: #F30000;
+	border-radius: 8px;
+
+	position: relative;
+}
+.upcoming-lotteries .upcoming-lotteries-title p{
+	color: white;
+	height: 24px;
+	text-align: center;
+
+	position: absolute;
+	top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.upcoming-lotteries .upcoming-lotteries-section{
+	margin: 0 50px;
+}
+.upcoming-lotteries .upcoming-lotteries-section .upcoming-lotteries-row{
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.upcoming-lotteries-row .upcoming-lotteries-item{
+	width: 208px; height: 270px;
+	border: 1px solid #E0E0E0;
+	border-radius: 8px;
+}
