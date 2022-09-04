@@ -1,0 +1,1 @@
+GRANT ALL PRIVILEGES ON portal.* TO 'portal'@'localhost' IDENTIFIED BY 'Pinn@cle1$';
